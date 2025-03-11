@@ -1,5 +1,5 @@
 import React from 'react';
-import './BNavBar.css';
+import '../assets/css/BNavBar.css';
 import { Link } from "react-router-dom";
 
 const BNavbar = () => {
