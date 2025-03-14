@@ -100,4 +100,7 @@
     transform: scale(1.05);
   }
   
+  .previous-page {
+    display: none;
+  }
   

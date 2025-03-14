@@ -41,7 +41,7 @@ const FindMyCar = () => {
   return (
     <div className="container">
       <h1>Questionnaire</h1>
-      <p>Answer a few questions to find the best vehicle for you!</p>
+      <p>Answer the following questions to find the best vehicle for you!</p>
 
       <div className="question">
         <label>How many people are traveling?</label>

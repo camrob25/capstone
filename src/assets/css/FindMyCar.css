@@ -51,3 +51,8 @@ button:hover {
 .back-button:hover {
     background-color: red;
 }
+
+.previous-page {
+    display: none;
+  }
+  

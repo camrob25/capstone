@@ -37,3 +37,8 @@
   .Bnav-link:hover {
     text-decoration: underline;
   }
+
+  .previous-page {
+    display: none;
+  }
+  

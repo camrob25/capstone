@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import CarRentalPage from '../pages/CarRentalPage';
 import FindMyCar from '../pages/FindMyCar';
 import CarPriceChart from '../pages/CarPriceChart';

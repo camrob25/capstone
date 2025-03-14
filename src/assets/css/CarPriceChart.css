@@ -59,3 +59,8 @@ canvas {
 .hertz-button:hover {
     background-color: yellow;
 }
+
+.previous-page {
+    display: none;
+  }
+  

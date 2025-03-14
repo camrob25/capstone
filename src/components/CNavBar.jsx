@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/CNavbar.css';
+import { Link } from 'react-router-dom';
 
 const CNavbar = () => {
     return (
@@ -19,7 +20,7 @@ const CNavbar = () => {
               <a className="nav-link" href="https://www.hertz.com">Hertz</a>
             </li>
             <li className="Cnav-item">
-              <Link className="nav-link" to="/Cargraph">Compare Rates</Link>
+              <Link className="nav-link" to="/bargraph">Compare Rates</Link>
             </li>
             <li className="Cnav-item">
               <Link className="nav-link" to="/find-car">Help</Link>
