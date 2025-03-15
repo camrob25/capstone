@@ -61,8 +61,8 @@ button:hover {
     justify-content: center;
     text-align: center;
     width: 100%; 
-    max-width: 600px; /* Increase size */
-    margin: auto; /* Center the card */
+    max-width: 600px;
+    margin: auto; 
     padding: 20px;
     background: white;
     border-radius: 10px;
@@ -71,10 +71,10 @@ button:hover {
 
 .car-card img {
     width: 100%;
-    max-width: 500px; /* Increase image size */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 500px;
+    height: auto; 
     max-height: 400px;
-    object-fit: contain; /* Prevents cropping */
+    object-fit: contain; 
     display: block;
     margin: auto;
 }
