@@ -1,44 +1,50 @@
 .Bnavbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.452);
-    padding: 15px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-  }
-  
-  .Bnavbar h1 {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .Bnavbar-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .Bnavbar-links .Bnav-item {
-    display: inline;
-  }
-  
-  .Bnav-link {
-    color: white;
-    font-size: 18px;
-  }
-  
-  .Bnav-link:hover {
-    text-decoration: underline;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.589);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000; /* Ensures the navbar is above other content */
+}
 
-  .previous-page {
-    display: none;
-  }
-  
+.Bnavbar h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Bnavbar-links  {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  color: white !important;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links .nav-item {
+  display: inline;
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color:blue;
+}
+

@@ -7,8 +7,11 @@ const BNavbar = () => {
     <div className="Bnavbar">
       <h1>Voyage</h1>
       <ul className="Bnavbar-links">
+      <li className="Bnav-item">
+          <Link className="nav-link" to="/">Home</Link>
+        </li>
         <li className="Bnav-item">
-          <Link className="nav-link" to="/car-rental">Home</Link>
+          <Link className="nav-link" to="/car-rental">Car Rental </Link>
         </li>
         <li className="Bnav-item">
           <a className="nav-link" href="https://www.enterprise.com">Enterprise</a>

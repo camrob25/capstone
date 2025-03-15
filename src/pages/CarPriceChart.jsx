@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Ensure this is imported
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
+import '../assets/css/CarPriceChart.css';
 
 // Register necessary Chart.js components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
@@ -75,18 +76,7 @@ const CarPriceChart = () => {
         <Bar data={data} options={options} />
       </div>
       <div className="mt-4 space-x-4">
-        <button className="back-button" onClick={() => navigate("/car-rental")}>
-          Go back to cars
-        </button>
-        <button className="enterprise-button" onClick={() => window.location.href = "https://www.enterprise.com"}>
-          Go to Enterprise
-        </button>
-        <button className="thrifty-button" onClick={() => window.location.href = "https://www.thrifty.com"}>
-          Go to Thrifty
-        </button>
-        <button className="hertz-button" onClick={() => window.location.href = "https://www.hertz.com"}>
-          Go to Hertz
-        </button>
+      <button className="back-button" onClick={() => navigate("/car-rental")}>Go back to cars</button>
       </div>
     </div>
   );

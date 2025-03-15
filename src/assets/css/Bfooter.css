@@ -3,14 +3,11 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.637);
+    background: rgba(0, 0, 0, 0.589);
     color: white;
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
 }
 
-.previous-page {
-    display: none;
-  }
   

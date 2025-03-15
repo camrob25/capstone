@@ -1,4 +1,4 @@
-
+/* Global resets */
 * {
     margin: 0;
     padding: 0;
@@ -6,65 +6,24 @@
     font-family: Arial, sans-serif;
   }
   
-  body {
-    background: url('./images/audic.jpg') no-repeat center center/cover;
-    height: 100vh;
+  .content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
-  }
-  
-  .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.452);
-    padding: 15px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #3333335e;
-    color: white;
-  }
-  
-  .navbar h1 {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-  }
-  
-  .navbar-links .nav-item {
-  display: inline;
-  }
-  
-  .nav-link {
-  color: white;
-  font-size: 18px;
-  }
-  
-  .nav-link:hover {
-  text-decoration: underline;
+    height: 100vh; /* Ensures content container fills the full height of the viewport */
+    overflow: hidden; /* Prevents any overflow */
   }
   
   .button-box {
     position: absolute;
+    top: 18%;
+    right: 175px;
     background: rgba(255, 255, 255, 0.303);
-    top:18%;
-    right:175px;
     padding: 20px;
-    width: 435px; 
+    width: 435px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -100,7 +59,13 @@
     transform: scale(1.05);
   }
   
-  .previous-page {
-    display: none;
+  /* Background image styling */
+  .background-image {
+    width: 100%;
+    height: 100%; /* Ensures the image covers the viewport without causing overflow */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Keeps the image behind other content */
   }
-  
