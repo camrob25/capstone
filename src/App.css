@@ -1,10 +1,10 @@
-/* App.css or global CSS */
+
 .page {
-  display: none; /* Initially hide all pages */
+  display: none;
 }
 
 .page.visible {
-  display: block; /* Only show the component when it's ready */
+  display: block;
 }
 
 .page.hidden {
